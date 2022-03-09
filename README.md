@@ -11,3 +11,5 @@ In small groups :
   * Tests are green before and at the end of your refactoring
 * After this period of time : present the new version of the production code
   * Other groups have 2 minutes to identify what is implemented
+
+![Crappy icon](img/crappy.png)
