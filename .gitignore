@@ -33,7 +33,7 @@ project/plugins/project/
 bin/
 obj/
 .vs/
-.user
+*.user
 
 #Mac
 .DS_Store
