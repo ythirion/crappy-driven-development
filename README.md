@@ -1,6 +1,6 @@
-# Crappy-Driven-Development (CDD)
+# Crappy Driven-Development (CDD)
 Let's learn a new development practice : Crappy-Driven Development.
-`The art of making yourself indispensable by writing crappy code !!!`
+`The secret art of making yourself indispensable by writing crappy code !!!`
 
 ## Kata
 In small groups / [mob](https://www.youtube.com/watch?v=SHOVVnRB4h0&ab_channel=GOTOConferences) :
