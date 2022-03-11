@@ -67,5 +67,7 @@ Take a few minutes to reflect and ask questions :
 * The list of implemented crappy refactoring serve as an anti-patterns list :
   * All the code smells they must avoid in their own code
   * Stuff to fight against
+* Learn Mob Programming
+* Practice automated refactoring : rename, move, extract, ...
 * Because it's fun 😊
 
