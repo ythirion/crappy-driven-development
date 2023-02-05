@@ -1,0 +1,13 @@
+{
+  "name": "password-challenge",
+  "version": "1.0.0",
+  "main": "passwordValidator.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "jest": "^29.4.1"
+  }
+}
