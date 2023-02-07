@@ -14,11 +14,19 @@ const rmap = {
     1    : "I"  ,
 };
 
+function findClosestKey(number) {
+    return parseInt(
+            Object.keys(rmap)
+                .filter(key => key <= number)
+                .pop()
+        )
+}
+
 function convertToRoman(number) {
     if (number <= 0)
         throw new RangeError("must be an integer greater than zero");
 
-    const closestKey = parseInt(Object.keys(rmap).filter(key => key <= number).pop());
+    const closestKey = findClosestKey(number);
     if (closestKey == number)
         return rmap[closestKey];
     else
