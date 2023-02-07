@@ -4,7 +4,7 @@ Let's learn a new development practice : Crappy-Driven Development.
 
 ## Kata
 In small groups / [mob](https://www.youtube.com/watch?v=SHOVVnRB4h0&ab_channel=GOTOConferences) :
-* Choose a code in a language you want to work with (`C#`, `java`, `scala`)
+* Choose a code in a language you want to work with (`C#`, `java`, `scala`, `js`)
 * Your objective : Apply CDD to make the code so crappy that other groups won't be able to understand it
   * Follow the golden rules described below
 ![Crappy-Driven-Development](img/crappy-driven-development.png)

@@ -1,0 +1,12 @@
+{
+  "name": "roman-numerals",
+  "version": "1.0.0",
+  "main": "romanNumerals.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
