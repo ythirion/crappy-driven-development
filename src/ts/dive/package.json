@@ -1,0 +1,15 @@
+{
+    "name": "crappy-driven-development",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "jest",
+        "crappy": "jest --watchAll",
+        "coverage": "jest --collect-coverage"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.4.0",
+        "jest": "^29.4.3",
+        "ts-jest": "^29.0.5"
+    }
+}

@@ -40,3 +40,7 @@ obj/
 
 ## Verify
 *.received.*
+
+# TS
+**/node_modules
+**/coverage
