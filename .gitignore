@@ -44,3 +44,4 @@ obj/
 # TS
 **/node_modules
 **/coverage
+**/reports

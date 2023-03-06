@@ -5,9 +5,12 @@
     "scripts": {
         "test": "jest",
         "crappy": "jest --watchAll",
-        "coverage": "jest --collect-coverage"
+        "coverage": "jest --collect-coverage",
+        "stryker": "stryker run"
     },
     "devDependencies": {
+        "@stryker-mutator/jest-runner": "^6.4.1",
+        "@stryker-mutator/typescript-checker": "^6.4.1",
         "@types/jest": "^29.4.0",
         "jest": "^29.4.3",
         "ts-jest": "^29.0.5"
