@@ -51,10 +51,21 @@ I recommend to use [mobtime](https://mobti.me/) and configure below roles :
 * Anticipate what can be crappier
 * Write down ideas that emerge in his/he mind and other ideas as well
 
+### Source of inspiration
+If you need some inspiration, here is a list of [ideas](docs/ideas.md). 
+
 ### Review
-At the end of the 30 minutes period : 
-* Each mob presents the new version of the production code
-* Other groups have 2 minutes to identify what is implemented
+At the end of the 30 minutes period each mob presents the new version of their code.
+
+### Clean Code principles
+Map each crappy action with at least one of the `Clean Code` principle available [here](docs/clean-code.pdf)
+
+### Programmer's Brain
+If you want to understand the impact (on cognition) of not using `Clean Code` principles in your code you should definitely read [Programmer's Brain - What every programmer needs to know about cognition](https://www.manning.com/books/the-programmers-brain) by Felienne Hermans.
+
+[Here](docs/programmers-brain.pdf) is my infographic from this great book.
+
+![Programmer's Brain Infographic](img/programmers-brain.png)
 
 ### Reflect
 Take a few minutes to reflect and ask questions :
