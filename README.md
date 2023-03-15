@@ -2,6 +2,18 @@
 Let's learn a new development practice : Crappy-Driven Development.
 `The secret art of making yourself indispensable by writing crappy code !!!`
 
+- [The kata](#kata)
+  - [Mob roles](#mob-roles)
+  - [Source of inspiration](#source-of-inspiration)
+  - [Review](#review)
+- [Clean Code principles](#clean-code-principles)
+- [Programmer's Brain](#programmers-brain)
+  - [Book infographic](#book-infographic)
+  - [Workshop / slides](#workshop)
+- [Reflect](#reflect)
+- [Why this kata?](#why-this-kata-)
+ 
+
 ## Kata
 In small groups / [mob](https://www.youtube.com/watch?v=SHOVVnRB4h0&ab_channel=GOTOConferences) :
 * Choose a code in a language you want to work with (`C#`, `java`, `scala`, `js`)
@@ -57,10 +69,10 @@ If you need some inspiration, here is a list of [ideas](docs/ideas.md).
 ### Review
 At the end of the 30 minutes period each mob presents the new version of their code.
 
-### Clean Code principles
+## Clean Code principles
 Map each crappy action with at least one of the `Clean Code` principle available [here](docs/clean-code.pdf)
 
-### Programmer's Brain
+## Programmer's Brain
 If you want to understand the impact (on cognition) of not using `Clean Code` principles in your code you should definitely read [Programmer's Brain - What every programmer needs to know about cognition](https://www.manning.com/books/the-programmers-brain) by Felienne Hermans.
 
 ![Why reading code is important](img/programmers-brain/why-reading-so-important.webp)
@@ -70,19 +82,19 @@ If you want to understand the impact (on cognition) of not using `Clean Code` pr
 ![Linguistic Anti-patterns in figures](img/programmers-brain/lap-in-figures.webp)
 ![Linguistic Anti-patterns confusion](img/programmers-brain/lap-confusion.webp)
 
-#### Book infographic 
+### Book infographic 
 [Here](docs/programmers-brain.pdf) is my infographic from this great book.
 
 ![Programmer's Brain Infographic](img/programmers-brain.png)
 
-#### Workshop
+### Workshop
 If you want to go further, I have created a workshop in 2 parts based on the learnings from Felienne's book:
 - [How to read code better](https://speakerdeck.com/thirion/the-programmers-brain-read-code-better)
 - [Be better at code](https://speakerdeck.com/thirion/2-be-better-at-code)
 
 ![Programmer's Brain workshop](img/programmers-brain-workshop.webp)
 
-### Reflect
+## Reflect
 Take a few minutes to reflect and ask questions :
 * Based on your mob refactoring list, which patterns did you observe recently in your codebase ?
 * What did you learn from this kata ?
