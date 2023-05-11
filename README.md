@@ -13,6 +13,7 @@ Let's learn a new development practice : Crappy-Driven Development.
 - [Reflect](#reflect)
 - [Why this kata?](#why-this-kata-)
  
+![Crappy-Driven Development](img/cdd-cover.webp)
 
 ## Kata
 In small groups / [mob](https://www.youtube.com/watch?v=SHOVVnRB4h0&ab_channel=GOTOConferences) :
