@@ -65,7 +65,12 @@ I recommend to use [mobtime](https://mobti.me/) and configure below roles :
 * Write down ideas that emerge in his/he mind and other ideas as well
 
 ### Source of inspiration
-If you need some inspiration, here is a list of [ideas](docs/ideas.md). 
+If you need some inspiration, here are some cards to pick crappy ideas.
+
+[![Crappy Ideas](img/crappy-idea.png)](docs/cdd-cards.pdf)
+
+- [Printable cards](docs/cdd-cards.pdf)
+- [Miro board](https://miro.com/app/board/uXjVMJh1J1A=/?share_link_id=140356553537)
 
 ### Review
 At the end of the 30 minutes period each mob presents the new version of their code.
