@@ -1,34 +1,59 @@
 package converters;
 
+import java.util.Comparator;
+import java.util.Map;
+import java.util.Optional;
 import java.util.TreeMap;
 
-public class RomanNumerals {
+import static java.util.Optional.*;
+import static java.util.Optional.empty;
+
+public final class RomanNumerals {
+    private static final int MAX_NUMBER = 3999;
+    private static final Map<Integer, String> intToNumerals = createMapForIntegerToNumerals();
+
     private RomanNumerals() {
     }
 
-    private static final TreeMap<Integer, String> treemap = new TreeMap<>();
+    private static TreeMap<Integer, String> createMapForIntegerToNumerals() {
+        var map = new TreeMap<Integer, String>(Comparator.reverseOrder());
+        map.put(1000, "M");
+        map.put(900, "CM");
+        map.put(500, "D");
+        map.put(400, "CD");
+        map.put(100, "C");
+        map.put(90, "XC");
+        map.put(50, "L");
+        map.put(40, "XL");
+        map.put(10, "X");
+        map.put(9, "IX");
+        map.put(5, "V");
+        map.put(4, "IV");
+        map.put(1, "I");
 
-    static {
-        treemap.put(1000, "M");
-        treemap.put(900, "CM");
-        treemap.put(500, "D");
-        treemap.put(400, "CD");
-        treemap.put(100, "C");
-        treemap.put(90, "XC");
-        treemap.put(50, "L");
-        treemap.put(40, "XL");
-        treemap.put(10, "X");
-        treemap.put(9, "IX");
-        treemap.put(5, "V");
-        treemap.put(4, "IV");
-        treemap.put(1, "I");
+        return map;
     }
 
-    public static String convertToRoman(int number) {
-        int l = treemap.floorKey(number);
-        if (number == l) {
-            return treemap.get(number);
+    public static Optional<String> convert(int number) {
+        return isInRange(number)
+                ? convertSafely(number)
+                : empty();
+    }
+
+    private static Optional<String> convertSafely(int number) {
+        var roman = new StringBuilder();
+        var remaining = number;
+
+        for (var toRoman : intToNumerals.entrySet()) {
+            while (remaining >= toRoman.getKey()) {
+                roman.append(toRoman.getValue());
+                remaining -= toRoman.getKey();
+            }
         }
-        return treemap.get(l) + convertToRoman(number - l);
+        return of(roman.toString());
+    }
+
+    private static boolean isInRange(int number) {
+        return number > 0 && number <= MAX_NUMBER;
     }
 }

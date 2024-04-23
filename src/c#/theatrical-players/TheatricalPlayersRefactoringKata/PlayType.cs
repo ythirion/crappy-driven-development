@@ -1,7 +1,8 @@
-namespace TheatricalPlayersRefactoringKata;
-
-public enum PlayType
+namespace TheatricalPlayersRefactoringKata
 {
-    Tragedy,
-    Comedy
+    public enum PlayType
+    {
+        Tragedy,
+        Comedy
+    }
 }

@@ -27,6 +27,6 @@ class SubmarineTests {
     private List<Instruction> loadInstructions() {
         return Arrays.stream(FileUtils.getInputAsSeparatedLines("submarine.txt"))
                 .map(Instruction::fromText)
-                .collect(Collectors.toUnmodifiableList());
+                .toList();
     }
 }

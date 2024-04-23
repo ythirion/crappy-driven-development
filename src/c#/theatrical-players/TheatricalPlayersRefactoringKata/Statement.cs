@@ -14,12 +14,7 @@ namespace TheatricalPlayersRefactoringKata
 
         internal static Statement Append(
             this Statement statement,
-            Statement append) =>
-            statement with
-            {
-                Text = statement.Text + append.Text,
-                Amount = statement.Amount + append.Amount,
-                Credits = statement.Credits + append.Credits
-            };
+            Statement append) 
+            => new(Text: statement.Text + append.Text, Amount: statement.Amount + append.Amount, Credits: statement.Credits + append.Credits);
     }
 }
