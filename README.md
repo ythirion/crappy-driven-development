@@ -81,11 +81,11 @@ Map each crappy action with at least one of the `Clean Code` principle available
 ## Programmer's Brain
 If you want to understand the impact (on cognition) of not using `Clean Code` principles in your code you should definitely read [Programmer's Brain - What every programmer needs to know about cognition](https://www.manning.com/books/the-programmers-brain) by Felienne Hermans.
 
-![Why reading code is important](img/programmers-brain/why-reading-so-important.png)
-![Reading unfamiliar code is hard](img/programmers-brain/reading-code-is-hard.png)
-![Code smells and cognitive load](img/programmers-brain/code-smells.png)
-![Linguistic Anti-patterns](img/programmers-brain/linguistic-anti-patterns.png)
-![Linguistic Anti-patterns in figures](img/programmers-brain/lap-in-figures.png)
+![Why reading code is important](img/programmers-brain/why-reading-so-important.webp)
+![Reading unfamiliar code is hard](img/programmers-brain/reading-code-is-hard.webp)
+![Code smells and cognitive load](img/programmers-brain/code-smells.webp)
+![Linguistic Anti-patterns](img/programmers-brain/linguistic-anti-patterns.webp)
+![Linguistic Anti-patterns in figures](img/programmers-brain/lap-in-figures.webp)
 
 ### Book infographic 
 [Here](docs/programmers-brain.pdf) is my infographic from this great book.
